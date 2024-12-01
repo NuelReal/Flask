@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venue</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/stylesheets/venue.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1> Venue Information</h1>
+        <em> <p>Join us at our beautiful conference venue, conveniently located and equipped with all the facilities you need for an enriching experience.</p> <em\>
+        <nav>
+            <a href="{{ url_for('index') }}">Home</a>
+            <a href="venue">Venue</a>
+            <a href="{{ url_for('index') }}">Speakers</a>
+            <a href="register">Register</a>
+        </nav>
+        
+    </header> 
+
+     <section class="Venue-Info"> 
+    
+       <h2><b>  <strong> Rockview Hotel</strong></b><h2\>
+       <br> <p> <strong> 
+        Address: plot cp2, cp5 government station, layout, </strong></p> 
+        <p> <strong> Owerri 460281, Imo State, Nigeria.</strong></p> 
+       <p><b> Having Difficulty to locate us?</b> <a href="https://maps.app.goo.gl/DvgkCiPLEoG6aFAw9"> Click Here</a></p>
+       <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d992.8736464420384!2d7.032806514334761!3d5.493313934581043!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x10425f066c658699%3A0xbc7453a96a27c8f5!2sFederal%20University%20of%20Technology%20-%20Owerri%2C%201526%2C%20PMB%2COwerri%2C%20Ihiagwa!3m2!1d5.392690099999999!2d6.986148099999999!4m5!1s0x10425977bee17a6d%3A0x9f83d7e717f22efa!2splot%20cp2%2C%20Rockview%20Hotel%20Owerri%2C%20cp5%20government%20station%2C%20Owerri!3m2!1d5.4934636999999995!2d7.032418799999999!5e0!3m2!1sen!2sng!4v1732141196438!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></section>
+  <br>
+     <section class=" Transportation-info">
+
+      <h2> Transportation</h2>
+      <p> <strong>  4 buses with a capacity of 180 will carry attendees within the region of owerri west to the Venue</strong></p>
+      <p>  <strong> The venue is also accessible by public transportation and offers ample parking for attendees. </strong> </p>
+     </section>
+
+     <section class=" Accessibility-info">
+
+        <h2> Accessibility</h2>
+        <p> <strong> Wheelchair-accessible entrance, elevators, and restrooms.</strong></p>
+    </section>
+  
+
+
+
+    
+     
+
+     
+   <footer>
+        <p> <b>@EmpowerTech 2024 Conference All Rights Reserved.</b></p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,165 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+body {
+    color: black; /* black text color */
+    background-color: #363333; /* Dark gray background */
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #006064 0%, #004d40 100%);
+    color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+    border-bottom: 5px solid #B5EEA5; /* Pastel green border */
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: #ffffff; 
+    margin: 0 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #363636; /* Gold color on hover */
+}
+
+/* Main Content */
+section {
+    margin: 40px auto;
+    width: 80%;
+}
+
+
+h2{
+    color: black;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+h4 {
+    color: black; 
+    font-size: 1.3rem;
+    margin-top: 30px;
+}
+
+b {
+    font-weight: bold;
+}
+
+.Accommodation-info, .Transportation-info, .Venue-Info, .Accessibility-info {
+    background-color: #B5EEA5; /* Pastel green background */
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    border-left: 10px solid #004d40; /* Darker green border */
+}
+
+.Accommodation-info p, .Transportation-info p, .Venue-Info p, .Accessibility-info p {
+    font-size: 1.1rem;
+    margin-top: 10px;
+}
+
+.Accommodation-info h3, .Transportation-info h3, .Venue-Info h3, .Accessibility-info h3 {
+    color: #004d40; /* Darker green for headings */
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+a {
+    color: #ffab40; /* Gold for links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ff6f00; /* Darker gold on hover */
+}
+
+/* Button Style */
+button {
+    background-color: #ffab40; /* Gold button */
+    color: #ffffff; /* White text */
+    padding: 12px 30px;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff6f00; /* Darker gold on hover */
+}
+
+/* Footer */
+footer {
+    background-color: #363333; /* Deep teal footer */
+    color: #ffffff;
+    padding: 30px 0;
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* Hero Section */
+i {
+    font-style: italic;
+    font-size: 1.2rem;
+    display: block;
+    margin: 20px 0;
+    text-align: center;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    nav a {
+        font-size: 1rem;
+        margin: 0 15px;
+    }
+
+    section {
+        width: 90%;
+    }
+
+    .Accessibility-info, .Transportation-info, .Venue-Info {
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+
+    footer p {
+        font-size: 1rem;
+    }
+}
+

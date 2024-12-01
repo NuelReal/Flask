@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EmpowerTech</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/stylesheets/style.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="head-info">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#speakers">Speakers</a></li>
+            <li><a href="venue">Venue</a></li>
+
+        </ul>
+
+        <button class="register button"><a href="register">Register now</a></button>
+    </div>
+
+    <div class="hero">
+        <p class="hero-header">#1 Design and Tech Workshop event in Nigeria</p>
+        <div class="info-hero" >
+            <p class="first">20-11-2024</p>
+            <p class="november">November</p>
+            <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque molestias incidunt dicta vel facere.</p>
+            <button class="register-info"><a href="register">Register now</a></button>
+        </div>
+        <img src="static/css/IMG-20241125-WA0011.jpg" class="girl-pc">
+        <img src="static/css/IMG-20241125-WA0012.jpg" class="pc-girl">
+        <img src="static/css/IMG-20241125-WA0016.jpg" class="pc-guy">
+        <img src="static/css/IMG-20241125-WA0015.jpg" class="man-pointing">
+        <img src="static/css/IMG-20241125-WA0013.jpg" class="guy-prod">
+        <img src="static/css/IMG-20241125-WA0014.jpg" class="guy-red">
+       
+    </div>
+
+
+
+
+    <div class="about" id="about">
+        <p class="about-header">About our Workshop</p>
+        <button class="register-about button"><a href="register">Register Now</a></button>
+        <p class="about-writeup">Empower Tech Conference 2024 is an exciting event designed to bring together innovators, professionals, and enthusiasts in the tech industry.With a focus on empowerment, growth, and learning, the Empower Tech Conference is a must-attend for anyone passionate about shaping the future of technology.</p>
+            <img src="static/css/IMG-20241125-WA0017.jpg" class="woman-call">
+        
+
+        <div class="about-info">
+
+            <div class="about-days">
+            <p class="high-p">01</p>
+            <p class="low-p">Days</p> 
+            </div>
+            
+
+            <div class="about-speakers">
+            <p class="high-p">03</p>
+            <p class="low-p">speakers</p>
+            </div>
+
+            <div class="about-sessions">
+            <p class="high-p">04</p>
+            <p class="low-p">sessions</p>   
+            </div>
+
+        </div>
+    </div>
+    <div class="speakers" id="speakers">
+        <p>Meet our Speakers</p>
+
+        <div class="speakers-section">
+            <div class="speaker">
+              <img src="static/css/IMG-20241125-WA0010.jpg" alt="Speaker 1">
+              <div class="name-overlay">Oladimeji Ajegbile</div>
+            </div>
+            <div class="speaker">
+              <img src="static/css/IMG-20241125-WA0009.jpg" alt="Speaker 2">
+              <div class="name-overlay">Miss Techy</div>
+            </div>
+            <div class="speaker">
+              <img src="static/css/IMG-20241125-WA0008.jpg" alt="Speaker 3">
+              <div class="name-overlay">Fisayo Fosudo</div>
+            </div>
+          </div>
+        
+    </div>
+            
+    
+    <p class="faq-p">Frequently Asked Questions</p>
+
+    <div class="faq-container" id="#faq">
+
+ 
+        <div class="faq-item">
+            <div class="faq-question">What is EmpowerTech?</div>
+            <div class="faq-answer">EmpowerTech is a premier design and tech workshop held in Nigeria, featuring expert speakers and interactive sessions.</div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-question">How can I register for the workshop?</div>
+            <div class="faq-answer">You can register for the workshop by clicking the "Register now" button on our homepage or in the navigation bar.</div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-question">What topics will be covered?</div>
+            <div class="faq-answer">The workshop will cover various topics including UI/UX design, web development, and emerging technologies.</div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-question">Who can attend the workshop?</div>
+            <div class="faq-answer">The workshop is open to designers, developers, and tech enthusiasts looking to expand their knowledge and skills.</div>
+        </div>
+
+        <button class="register-faq button"><a href="register">Register now</a></button>
+    </div>
+
+
+   <footer>
+        <!-- <p>Explore</p>
+        <p>Support</p>
+        <p>Others</p>
+        <p>Social</p> -->
+
+        <p>Home</p>
+        <p>About</p>
+        <p>Contact</p>
+        <p>FAQS</p>
+        <p>Register</p>
+
+    <div class="copyright">
+        <p>Copyright Designed and Developed by CSC group 10</p>
+    </div>
+   </footer>
+
+    <script>
+           document.querySelectorAll('.faq-question').forEach(question => {
+        question.addEventListener('click', () => {
+            const parent = question.parentElement;
+            parent.classList.toggle('open');
+        });
+    });
+    </script>
+</body>
+</html>
